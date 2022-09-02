@@ -7,21 +7,19 @@
 main{
     margin-top:100px;
 }
-@mixin button_style{
+@mixin button_style($bg,$color){
     text-decoration:none;
     padding:10px 20px;
-    color: #fff;
+    color: $color;
     margin:10px;
+    background-color: $bg;
 }
 .green_btn{
-    @include button_style;
-    background-color: green;
+    @include button_style(green,white);
 }
 .red_btn{
-    @include button_style;
-    background-color: red;
+    @include button_style(red,black);
 }
 .dark_btn{
-    @include button_style;
-    background-color:black;
+    @include button_style(black,teal);
 }
