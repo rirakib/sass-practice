@@ -2,4 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  background-color: tomato;
+}
+
+nav {
+  background-color: teal;
+  height: 40px;
+  line-height: 40px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: tomato;
+  color: #ffffff;
 }/*# sourceMappingURL=demo.css.map */
