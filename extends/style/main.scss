@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main{
+    margin-top:100px;
+}
+.btn{
+    border:1px solid black;
+    padding:10px 20px;
+    background-color:teal;
+}
+
+.css_btn{
+    @extend .btn;
+    color: white;
+}
