@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+main{
+    margin-top:100px;
+}
+@mixin button_style{
+    text-decoration:none;
+    padding:10px 20px;
+    color: #fff;
+    margin:10px;
+}
+.green_btn{
+    @include button_style;
+    background-color: green;
+}
+.red_btn{
+    @include button_style;
+    background-color: red;
+}
+.dark_btn{
+    @include button_style;
+    background-color:black;
+}
